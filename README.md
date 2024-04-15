@@ -1,1 +1,2 @@
 # FizzBuzzChallenge
+FizzBuzzChallenge This challenge is to write a simple console application demostrating my coding skills and the use of SOLID principles and TDD. The objective: To iterate through numbers 1-100 and output "Fizz" When divisible by 3 or "Buzz" when divisible by 5 or "FizzBuzz" when divisble by both and to just print the actual number if non of the criteria are met. I will use XUnit NSubsitute for my unit tests.
