@@ -63,6 +63,20 @@ namespace FizzBuzzChallenge.UnitTests.FizzBuzzServiceTests
             Assert.Equal(expectedOutput, actualOutput);
         }
 
+        [Theory]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(4)]
+        public void DoFizzBuzz_WhenNoCriteriaMet_ReturnNumber(int number)
+        {
+            //Arrange
+            string expectedOutput = number.ToString();
+            //Act
+            var actualOutput = _sut.GetFizzBuzzMessage(number);
+            //Assert
+            Assert.Equal(expectedOutput, actualOutput);
+        }
+
 
 
     }
